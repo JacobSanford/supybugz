@@ -1,4 +1,4 @@
-# supybugz
+# SupyBugz
 Supybot plugin to query and display information on Fogbugz cases into the channel.
 
 ## Setup

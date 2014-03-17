@@ -1,5 +1,5 @@
 from supybot.test import *
 
-class supybugzTestCase(PluginTestCase):
-    plugins = ('supybugz')
+class SupyBugzTestCase(PluginTestCase):
+    plugins = ('SupyBugz')
 

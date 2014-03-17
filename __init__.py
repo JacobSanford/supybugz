@@ -1,5 +1,5 @@
 """
-This plugin looks up and parrots information regarding a fogbugz case to
+This plugin looks up and parrots information regarding a Fogbugz case to
 channels.   
 """
 
@@ -9,7 +9,7 @@ import supybot.world as world
 __version__ = "main"
 __author__ = supybot.Author("Jacob Sanford","JS","jsanford@unb.ca")
 __contributors__ = {}
-__url__ = 'https://github.com/JacobSanford/supybugz'
+__url__ = 'https://github.com/JacobSanford/SupyBugz'
 
 import config
 import plugin

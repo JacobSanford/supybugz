@@ -7,8 +7,8 @@ from supybot.commands import *
 from fogbugz import FogBugz
 import fbSettings
 
-class supybugz(callbacks.Plugin):
-    """Add the help for "@plugin help supybugz" here
+class SupyBugz(callbacks.Plugin):
+    """Add the help for "@plugin help SupyBugz" here
     This should describe *how* to use this plugin."""
     threaded = True
 
@@ -40,5 +40,5 @@ class supybugz(callbacks.Plugin):
                 else :
                     irc.queueMsg(ircmsgs.privmsg(msg.args[0], 'Sorry, ' + ircutils.bold(match.group(1))  + ' is not a known BugID.'))
 
-Class = supybugz
+Class = SupyBugz
 
