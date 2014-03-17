@@ -6,5 +6,5 @@ def configure(advanced):
     conf.registerPlugin('SupyBugz', True)
 
 SupyBugz = conf.registerPlugin('SupyBugz')
-conf.registerChannelValue(Supybugz,'enable',registry.Boolean('False',"""Enable displaying messages from SupyBugz in channel?"""))
+conf.registerChannelValue(SupyBugz,'enable',registry.Boolean('False',"""Enable displaying messages from SupyBugz in channel?"""))
 
