@@ -1,7 +1,7 @@
 # SupyBugz
 ### Supybot Plugin for Fogbugz
 
-Supybot plugin to query and display information on Fogbugz cases into the channel.
+Supybot plugin that listens to a specified channel for the mask 'BugzID:XXX' and responds by printing information from the Fogbugz case into the channel.
 
 ## License
 - SupyBugz is licensed under the MIT License:
